@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fogo Nobre</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: #7A1E1E;
+            color: #333;
+        }
+
+        /* ===== CABEÇALHO ===== */
+        header {
+            background: #fff;
+            padding: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #b33a1c;
+        }
+
+        header h1 {
+            color: #b33a1c;
+            font-size: 85px;
+            font-family: "Cinzel Decorative", serif;
+             padding: 20px 30px;
+             background: #1C1C1C;
+             margin: 0px;
+             border: 5px solid #8B0000;
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #b33a1c;
+        }
+
+        /* ===== HERO ===== */
+        .hero {
+            height: 250px;
+            background: #C8651B;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+            font-family: "Fascinate Inline", cursive;
+
+        }
+
+        /* ===== MENU ===== */
+        .menu-section {
+            padding: 80px 40px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .menu-section h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 35px;
+            color: #F2CC0C;
+        }
+
+        .card-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #8B795E;
+            padding: 5px;
+            border-radius: 5px;
+            border: 11px solid #1C1C1C;
+        }
+
+        .card h3 {
+            margin-bottom: 40px;
+            color: #D4A017;
+             font-family: 'Raleway', sans-serif;
+        }
+
+        /* ===== IMAGENS CORRIGIDAS ===== */
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        /* ===== SEÇÃO PARA VOCÊ COMPLETAR ===== */
+        .personalizada {
+            padding: 20px 150px;
+            background: #C9A465;
+            align-content: center;
+        }
+
+        /* ===== RODAPÉ ===== */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #fff;
+            border-top: 2px solid #b33a1c;
+            margin-top: 40px;
+            color: #C8651B;
+        }
+
+
+      .coluna-dir  {
+            padding: 0px 150px;
+            background: #C9A465;
+            align-content: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🔥Fogo Nobre</h1>
+       
+    </header>
+
+    <section class="hero">
+        <h2>Seu melhor momento do dia pode começar com o nosso sabor!</h2>
+    </section>
+
+    <section class="menu-section" id="menu">
+        <h2>Venha nos Conhecer:</h2>
+
+        <div class="card-list">
+
+            <div class="card">
+                <img src="https://classic.exame.com/wp-content/uploads/2024/01/Feed_Divulgacao-e1705086825868.jpg?quality=70&strip=info" alt="Prato do Chefe">
+                <br>
+                <h3>Prato do Chefe</h3>
+                <p>Picanha argentina com farofa, arroz carreteiro e cogumelos salteados.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://otempo.scene7.com/is/image/sempreeditora/gastronomia-restaurantes-latin_america_s_50bestrestaurants-restaurantes-brasileiros-1763487125?qlt=90&ts=1763487214264&dpr=off" alt="Nosso Restaurante">
+                <br>
+                <h3>Um Pedaço do Nosso Restaurante</h3>
+
+                <p>Uma parte da nossa 
+                área VIP.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://cdn.goomer.com.br/website/base/db8/5e2/590/goomer-dicas-para-vender-mais-acompanhamentos-no-seu-restaurante.jpg">
+                <br>
+                <h3>Acompanhamento Premium</h3>
+                <p>Acompanhamentos variados: batatas, legumes, molho verde, cremes, cogumelos e arroz temperado.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== PARTE QUE VOCÊ VAI COMPLETAR ===== -->
+    <section class="personalizada">
+        <div class="coluna-dir">
+            <h2>Horários de funcionamento:</h2>
+            <br>
+            
+              <p>Segunda a sexta - 19:30 até as 23:00</p>
+                <br>
+                <p>Nos sábados e domingos - 20:00 até as 00:00</p>
+                <br>
+                <p>Não abrimos em feriados!</p>
+                
+            
+        </div>
+    </section>
+
+    <footer id="contato">
+        <p>Fogo Nobre © 2025 - Av. Central, 123 - Centro</p>
+    </footer>
+</body>
+</html>
